@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal landing Page  </title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="cloud">
+    <!-- <img src="/img/oFubsK.jpg" alt=""> -->
+    <div>
+      <div class="main" id="main">
+        <h1 class="name">Jo-Ann Jefthas</h1>
+        <span><button onclick=colorOn() class="butt" style="color: brown; filter: none;">Add some colour</button></span>
+      </div>
+      
+      <div class="info">
+        <p>I am an all round team player, who loves a challenge. Currently employed at an NPO called <a href="http://younglings.capetown" target="_blank" rel="noopener noreferrer" style="color: lawngreen;">Younglings</a> , as Fearless Leader. And I spend my day assisting the Younglings on their self taught journey of becoming a kickass software developers.<br><br> Github handle: Joannj</p>
+        <img src="/img/cup.jpg" class="jo" alt="picture of jo-ann">
+      </div>
+      
+      <form class="deets">
+        <h2>Thanks for visiting. Feel free to drop your name below...</h2>
+        <label for="name">Name</label>
+        <input type="text" />
+        <label for="rating">Dot my page</label>
+        <input type="radio" for="rating" id="1" value="1">
+        <label for="likes">check my page</label>
+        <input type="checkbox" name="like" id="like">
+      </form>
+    </div>
+  </div>
+  <script>
+    function colorOn(){
+      document.getElementById("main").style.filter= 'none';
+
+    }
+  </script>
+</body>
+</html>
