@@ -1,0 +1,14 @@
+body{
+  background-color:blueviolet ;
+  height: 100vh;
+}
+
+.container{
+  width: 60%;
+  background-image: url(img/oFubsK.jpg);
+  height: 100vh;
+}
+
+.is-white{
+  color: aliceblue;
+}
